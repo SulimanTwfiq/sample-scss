@@ -122,3 +122,11 @@
     @include borderize($key, $val);
   }
 }
+
+@mixin create-fonts-sizes() {
+  @each $key, $val in $fonts-sizes {
+    .text-#{$key} {
+      font-size: #{$val};
+    }
+  }
+}

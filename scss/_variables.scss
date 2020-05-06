@@ -1,4 +1,5 @@
 $body-bg: #e4e4e4;
+$dark-theme: true;
 
 $blue-500: #3cc3dc;
 $blue-400: #63cfe3;
@@ -60,3 +61,8 @@ $screens: (
 );
 $spacings: 0.25rem, 0.5rem, 0.75rem, 1rem, 1.25rem, 1.5rem, 2rem;
 $directions: left, right, top, bottom;
+$fonts-sizes: (
+  sm: 16px,
+  md: 24px,
+  lg: 36px,
+);
